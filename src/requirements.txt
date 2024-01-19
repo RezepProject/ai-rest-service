@@ -1,0 +1,9 @@
+aniso8601
+attrs
+Flask
+flask-restx
+itsdangerous
+Jinja2
+jsonschema
+pyrsistent
+Werkzeug
