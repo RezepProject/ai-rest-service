@@ -11,5 +11,5 @@
 ## Usage
 Run with: ``flask run`` or ``python3 -m flask run``
 
-## Remove all Packges
+## Remove all Packages
 ```pip uninstall -r requirements.txt -y```
