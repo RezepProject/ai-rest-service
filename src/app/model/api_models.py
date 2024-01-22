@@ -1,6 +1,6 @@
 from flask_restx import fields
 
-from .extensions import api 
+from src.app.extensions import api
 
 request_model = api.model("Request", {
     "uuid": fields.String,

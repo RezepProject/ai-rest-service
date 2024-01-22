@@ -1,14 +1,13 @@
-from flask_restx import Resource, Namespace 
-
-from .api_models import response_model, request_model
-from .models import Request, Response
+from flask_restx import Resource, Namespace
 
 ns = Namespace("api")
+
 
 @ns.route("/hello")
 class Hello(Resource):
     def get(self):
         return {"hello": "restx"}
+
 
 '''
 @ns.route("/courses")
