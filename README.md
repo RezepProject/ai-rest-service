@@ -9,7 +9,7 @@
 5. Restart your IDE
 
 ## Usage
-Run with: ``flask run``
+Run with: ``flask run`` or ``python3 -m flask run``
 
 ## Remove all Packges
 ```pip uninstall -r requirements.txt -y```
